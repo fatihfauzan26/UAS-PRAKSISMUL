@@ -1,1 +1,10 @@
 # UAS-PRAKSISMUL
+Deskripsi:
+Produk ini adalah sebuah aplikasi yang digunakan untuk mendeteksi gerakan dalam sebuah video menggunakan algoritma pengurangan latar belakang (background subtraction) dan deteksi kontur objek. Produk ini juga dilengkapi dengan fitur pengolahan video seperti mengubah ukuran frame, menyaring noise, dan menyoroti area yang bergerak dengan kotak pembatas.
+Proses dimulai dengan meminta pengguna untuk memasukkan path file video dan nama file output. Selanjutnya, video akan diinisialisasi dan dibaca menggunakan komponen pemrosesan video. Jika video tidak dapat dibuka, aplikasi akan memberikan pesan kesalahan kepada pengguna.
+Produk ini juga memungkinkan pengguna untuk mengatur ukuran tampilan video agar responsif sesuai dengan preferensi mereka. Model pengurangan latar belakang (background subtraction) digunakan untuk memisahkan objek yang bergerak dari latar belakang pada setiap frame video. Proses ini juga melibatkan operasi morfologi untuk menghilangkan noise yang tidak diinginkan.
+Selanjutnya, produk ini akan mendeteksi kontur objek pada frame yang telah diolah. Objek yang memiliki luas di atas ambang batas tertentu akan dianggap sebagai objek yang bergerak. Untuk memvisualisasikan objek yang bergerak, kotak pembatas berwarna hijau akan ditampilkan di sekitar objek pada frame asli.
+Frame video yang telah diproses akan ditampilkan dalam jendela aplikasi dengan nama 'Motion Detection'. Jika pengguna menekan tombol 'q', aplikasi akan berhenti dan keluar dari mode deteksi gerakan.
+Selain itu, produk ini juga memiliki fitur untuk menyimpan video output yang telah diproses sesuai dengan nama file yang diinputkan oleh pengguna.
+Setelah video selesai diproses, pengguna diberikan pilihan untuk memulai ulang deteksi gerakan atau keluar dari aplikasi.
+Produk ini memberikan solusi dasar untuk implementasi deteksi gerakan dalam video dan pengolahan video sederhana. Aplikasi ini dapat diadaptasi dan dikembangkan lebih lanjut sesuai dengan kebutuhan khusus pengguna untuk tujuan pengawasan, analisis, atau aplikasi lainnya yang memerlukan deteksi gerakan dalam video.
